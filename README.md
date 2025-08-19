@@ -6,10 +6,6 @@ Se trabajó con el dataset clásico de **Iris** (UCI Machine Learning Repository
 
 ---
 
-## Introducción:
-
-Este proyecto utiliza el clásico dataset de *Iris* para demostrar cómo aplicar aprendizaje automático para clasificar flores en tres especies: *Iris-setosa*, *Iris-versicolor* e *Iris-virginica* 🌺.
-
 ### Objetivo
 Entrenar modelos de clasificación que predigan correctamente la especie de una flor basándose en el largo y ancho de sus sépalos y pétalos.
 
