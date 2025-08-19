@@ -5,7 +5,7 @@ Este proyecto aplica **algoritmos de Machine Learning supervisado** para clasifi
 Se trabajó con el dataset clásico de **Iris Species** (UCI Machine Learning Repository), ampliamente utilizado en investigación y enseñanza por su simplicidad y riqueza. El dataset fue obtenido de Kaggle.
 
 <div align="center">
-  <img src="https://i.imgur.com/B6RkA9G.jpeg" width="450" alt="Iris Species Dataset"/>
+  <img src="https://i.imgur.com/B6RkA9G.jpeg" width="350" alt="Iris Species Dataset"/>
 </div>
 
 <br/>
