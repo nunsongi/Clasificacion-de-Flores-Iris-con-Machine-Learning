@@ -24,8 +24,10 @@ Contiene 150 registros con las siguientes características:
 ## 📂 Contenido del Repositorio
 
 - `Clasificación de Flores Iris con Machine Learning.ipynb` → Notebook con Análisis Exploratorio de Datos (EDA), entrenamiento de modelos y evaluación.
-- `/models/` → Carpeta donde se almacenan los modelos entrenados (`.pkl`).
+- `models` → Carpeta donde se almacenan los modelos entrenados (`.pkl`).
+- `.gitignore` → Ignora la carpeta del entorno virtual (`.venv/`).
 - `Iris.csv` → Dataset utilizado.
+- `README.md` → Presentación del proyecto.
 - `requirements.txt` → Dependencias necesarias para ejecutar el proyecto.
 
 ---
