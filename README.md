@@ -1,6 +1,6 @@
 # 🌸 Proyecto de Clasificación de Flores Iris con Machine Learning
 
-Este proyecto personal aplica **algoritmos de Machine Learning supervisado** para clasificar las especies de flores **Iris**: *Setosa*, *Versicolor* y *Virginica*, a partir de medidas de sus pétalos y sépalos.  
+Este proyecto aplica **algoritmos de Machine Learning supervisado** para clasificar las especies de flores **Iris**: *Setosa*, *Versicolor* y *Virginica*, a partir de medidas de sus pétalos y sépalos.  
 
 Se trabajó con el dataset clásico de **Iris** (UCI Machine Learning Repository), ampliamente utilizado en investigación y enseñanza por su simplicidad y riqueza. El dataset fue obtenido de Kaggle.
 
