@@ -74,9 +74,16 @@ SVM lineal es el modelo ganador en Iris, alcanzando **100% de accuracy** en el c
 
 ---
 
-## 💾 Guardado del Modelo
+## 📦 Modelos Guardados  
 
-El mejor modelo (SVM lineal) fue guardado en la carpeta `/models/` con el nombre:
+Durante el entrenamiento del proyecto se entrenaron y guardaron varios modelos de Machine Learning en la carpeta `models`.  
+Estos modelos pueden ser reutilizados en el futuro para hacer predicciones sin necesidad de volver a entrenarlos.  
 
-```bash
-models/svm_iris_classifier.pkl
+Modelos disponibles:  
+
+- **Regresión Logística** → `models/Regresión Logística_iris_classifier.pkl`  
+- **KNN (K-Nearest Neighbors)** → `models/KNN_iris_classifier.pkl`  
+- **SVM (Lineal)** → `models/SVM (lineal)_iris_classifier.pkl`  
+- **Random Forest** → `models/Random Forest_iris_classifier.pkl`  
+- **Gradient Boosting** → `models/Gradient Boosting_iris_classifier.pkl`  
+
