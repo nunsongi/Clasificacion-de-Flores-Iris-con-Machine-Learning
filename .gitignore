@@ -4,5 +4,5 @@
 # Ignorar caché de Python
 __pycache__/
 
-# Ignorar archivos de Jupyter Notebook que no necesitas subir
+# Ignorar archivos de Jupyter Notebook que no se necesita subir
 .ipynb_checkpoints/
