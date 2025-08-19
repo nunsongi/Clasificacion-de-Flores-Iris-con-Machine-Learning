@@ -44,12 +44,12 @@ Contiene 150 registros con las siguientes características:
 Se compararon cinco algoritmos:
 
 1. **Regresión Logística (`LogisticRegression`)**  
-   Modelo lineal usado como baseline.
+   Modelo lineal muy usado como baseline.
 
 2. **K-Nearest Neighbors (`KNeighborsClassifier`)**  
    Clasificación basada en vecinos más cercanos.
 
-3. **Support Vector Machines (`SVC`, kernel lineal)**  
+3. **Support Vector Machines (`SVC(kernel="linear"`)**  
    Encuentra el hiperplano óptimo de separación.
 
 4. **Random Forest (`RandomForestClassifier`)**  
@@ -62,15 +62,15 @@ Se compararon cinco algoritmos:
 
 ## 📈 Resultados de la Evaluación
 
-| Modelo              | Accuracy | Observaciones                                                 |
-| ------------------- | -------- | ------------------------------------------------------------- |
-| Regresión Logística | ~0.97    | Muy buen desempeño global.                                    |
-| KNN                 | ~0.97    | Similar a la regresión logística.                             |
-| SVM (lineal)        | **1.00** | 🏆 Mejor modelo, clasificación perfecta.                      |
-| Random Forest       | 0.90     | Menor desempeño, confusiones entre *Versicolor* y *Virginica*.|
-| Gradient Boosting   | 0.90     | Similar a Random Forest.                                      |
+| Modelo              | Accuracy | Observaciones                                                     |
+| ------------------- | -------- | ----------------------------------------------------------------  |
+| Regresión Logística |   93%    | Muy buen rendimiento, solo 1 error entre Versicolor y Virginica.  |                                    
+| KNN(k=5)            |   93%    | Buen rendimiento, pero confunde más entre Virginica y Versicolor. |                                
+| SVM (lineal)        | **100%** | Clasifica perfectamente todas las especies.                       |
+| Random Forest       |   90%    | Correcto, pero menor precisión en Virginica.                      |
+| Gradient Boosting   |   90%    | Similar a Random Forest, confusión en especies similares.         |                                         
 
-👉 El **mejor modelo** fue **SVM lineal**, alcanzando **100% de accuracy** en el conjunto de prueba.
+SVM lineal es el modelo ganador en Iris, alcanzando **100% de accuracy** en el conjunto de prueba.
 
 ---
 
