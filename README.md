@@ -6,19 +6,24 @@ Se trabajó con el dataset clásico de **Iris** (UCI Machine Learning Repository
 
 ---
 
-## 📊 Objetivos
+## Introducción:
 
-1. Analizar y explorar los datos.
-2. Realizar un **Análisis Exploratorio de Datos (EDA)** con visualizaciones para comprender relaciones entre variables.
-3. Entrenar, evaluar y comparar **5 modelos de clasificación**.
-4. Seleccionar el mejor modelo según métricas de desempeño.
-5. Guardar el modelo entrenado para su reutilización.
+Este proyecto utiliza el clásico dataset de *Iris* para demostrar cómo aplicar aprendizaje automático para clasificar flores en tres especies: *Iris-setosa*, *Iris-versicolor* e *Iris-virginica* 🌺.
+
+### Objetivo
+Entrenar modelos de clasificación que predigan correctamente la especie de una flor basándose en el largo y ancho de sus sépalos y pétalos.
+
+### Dataset
+Contiene 150 registros con las siguientes características:
+- Longitud y ancho del sépalo (cm)
+- Longitud y ancho del pétalo (cm)
+- Especie (etiqueta)
 
 ---
 
 ## 📂 Contenido del Repositorio
 
-- `Clasificación de Flores Iris con Machine Learning.ipynb` → Notebook con todo el análisis, entrenamiento y evaluación.
+- `Clasificación de Flores Iris con Machine Learning.ipynb` → Notebook con Análisis Exploratorio de Datos (EDA), entrenamiento de modelos y evaluación.
 - `/models/` → Carpeta donde se almacenan los modelos entrenados (`.pkl`).
 - `Iris.csv` → Dataset utilizado.
 - `requirements.txt` → Dependencias necesarias para ejecutar el proyecto.
@@ -29,7 +34,7 @@ Se trabajó con el dataset clásico de **Iris** (UCI Machine Learning Repository
 
 - **Python 3.9+**
 - `pandas` → Manejo de datos.
-- `numpy` → Operaciones numéricas.
+- `numpy` → Operaciones numéricas. (aunque no fue usado en este notebook)
 - `matplotlib`, `seaborn` → Visualización de datos.
 - `scikit-learn` → Modelos de machine learning y métricas.
 - `joblib` → Guardar y cargar modelos.
