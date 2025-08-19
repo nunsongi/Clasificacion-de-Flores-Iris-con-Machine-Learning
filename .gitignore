@@ -1,0 +1,8 @@
+# Ignorar la carpeta del entorno virtual
+.venv/
+
+# Ignorar caché de Python
+__pycache__/
+
+# Ignorar archivos de Jupyter Notebook que no necesitas subir
+.ipynb_checkpoints/
